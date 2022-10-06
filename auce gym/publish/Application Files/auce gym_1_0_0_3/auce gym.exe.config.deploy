@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="auce_gym.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="auce_gym.My.MySettings.classesConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\classes.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.cochesConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\coches.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.applicants1ConnectionString"
+            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\applicants1.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.coachesConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\coaches.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.stockConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\stock.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.activeregConnectionString"
+            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\activereg.mdb"
+            providerName="System.Data.OleDb" />
+        <add name="auce_gym.My.MySettings.dailyConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\WIN-J0KO7SXI6QF\Gym database\daily.mdb"
+            providerName="System.Data.OleDb" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <auce_gym.My.MySettings>
+            <setting name="id" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="sesid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="coachid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="totalsubs" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="substoday" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="totals" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="lastdate" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="a" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="currentuser" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="pass1" serializeAs="String">
+                <value>Auce123</value>
+            </setting>
+            <setting name="pass2" serializeAs="String">
+                <value>Rula123</value>
+            </setting>
+            <setting name="pass3" serializeAs="String">
+                <value>Ayan321</value>
+            </setting>
+            <setting name="mon" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="tue" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="wed" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="thu" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="fri" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="sat" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="sun" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="recnb" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="temp" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="changed" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="regid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="medid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="salaryid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="itemid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="revenue" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="expenses" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="sexpense" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="srevenue" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="v" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="subrevenue" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="inrevenue" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="totalrevenue" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="totalexpense" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="cexpense" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="subrev" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="did" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="recid2" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="paidid" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="salaryex" serializeAs="String">
+                <value>0</value>
+            </setting>
+        </auce_gym.My.MySettings>
+    </userSettings>
+</configuration>

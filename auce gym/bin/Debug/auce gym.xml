@@ -1,0 +1,1404 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+aucegym
+</name>
+</assembly>
+<members>
+<member name="T:auce_gym.coachesDataSet3.coachesSalariesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3.coachesSalariesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3.coachesSalariesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3TableAdapters.coachesSalariesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.ActiveRegDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.insuranceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.ActiveRegRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.insuranceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.ActiveRegRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2.insuranceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2TableAdapters.ActiveRegTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2TableAdapters.insuranceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.activeregDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.activeregDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.activeregDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.UpdateAll(auce_gym.activeregDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.activeregDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1.applicantsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1.applicantsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1.applicantsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1TableAdapters.applicantsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.applicants1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.applicants1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.applicants1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.UpdateAll(auce_gym.applicants1DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4.medicalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4.medicalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4.medicalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4TableAdapters.medicalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.applicants1DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.applicants1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.applicants1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.UpdateAll(auce_gym.applicants1DataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.classesDataSet3.DaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet3.DaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet3.DaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.classesDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.classesDataSet3TableAdapters.DaysTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.classesDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.classesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.classesDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.UpdateAll(auce_gym.classesDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.classesDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.classesDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.stockDataSet.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.stockDataSet.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.stockDataSet.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.stockDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.stockDataSetTableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.stockDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.stockDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.stockDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.stockDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.stockDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.stockDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.stockDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.stockDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.stockDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.stockDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.stockDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.stockDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2.coachesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2.coachesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2.coachesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2TableAdapters.coachesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5.coachesSalariesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5.coachesSalariesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5.coachesSalariesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5TableAdapters.coachesSalariesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:auce_gym.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:auce_gym.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:auce_gym.My.Resources.Resources._589939788">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:auce_gym.My.Resources.Resources.auce_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:auce_gym.My.Resources.Resources.bright_background_with_dots_1055_3132">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:auce_gym.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1.ActiveRegDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1.ActiveRegRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1.ActiveRegRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1TableAdapters.ActiveRegTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.activeregDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.activeregDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.activeregDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.UpdateAll(auce_gym.activeregDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.activeregDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4.insuranceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4.insuranceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4.insuranceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4TableAdapters.insuranceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.activeregDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.activeregDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.activeregDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.UpdateAll(auce_gym.activeregDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.activeregDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.dailyDataSet.DailyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.dailyDataSet.DailyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.dailyDataSet.DailyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.dailyDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.dailyDataSetTableAdapters.DailyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.dailyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.dailyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.dailyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.dailyDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.dailyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.dailyDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.varrDataSet2.varrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet2.varrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet2.varrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.varrDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.varrDataSet2TableAdapters.varrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.varrDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.varrDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.varrDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.UpdateAll(auce_gym.varrDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.varrDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.varrDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3.applicantsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3.applicantsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3.applicantsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3TableAdapters.applicantsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.applicants1DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.applicants1DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.applicants1DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.UpdateAll(auce_gym.applicants1DataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.classesDataSet2.classesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet2.classesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet2.classesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.classesDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.classesDataSet2TableAdapters.classesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.classesDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.classesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.classesDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.UpdateAll(auce_gym.classesDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.classesDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.classesDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.varrDataSet1.varrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet1.varrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet1.varrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.varrDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.varrDataSet1TableAdapters.varrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.varrDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.varrDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.varrDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.UpdateAll(auce_gym.varrDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.varrDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.varrDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet.medicalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet.medicalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet.medicalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSetTableAdapters.medicalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.applicants1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.applicants1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.applicants1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.applicants1DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.applicants1DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.classesDataSet.classesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet.classesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet.classesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.classesDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.classesDataSetTableAdapters.classesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.classesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.classesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.classesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.classesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.classesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.classesDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.classesDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.classesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.classesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.classesDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1.coachesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1.coachesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1.coachesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1TableAdapters.coachesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4.coachesSalariesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4.coachesSalariesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4.coachesSalariesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4TableAdapters.coachesSalariesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.varrDataSet.varrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet.varrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.varrDataSet.varrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.varrDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.varrDataSetTableAdapters.varrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.varrDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.varrDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.varrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.varrDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.varrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.varrDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.varrDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.varrDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.varrDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.varrDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.varrDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3.ActiveRegDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3.ActiveRegRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3.ActiveRegRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3TableAdapters.ActiveRegTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.activeregDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.activeregDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.activeregDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.UpdateAll(auce_gym.activeregDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.activeregDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2.medicalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2.medicalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2.medicalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2TableAdapters.medicalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.applicants1DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.applicants1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.applicants1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.UpdateAll(auce_gym.applicants1DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.applicants1DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.classesDataSet1.classesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet1.classesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet1.classesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.classesDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.classesDataSet1TableAdapters.classesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.classesDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.classesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.classesDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.UpdateAll(auce_gym.classesDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.classesDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.classesDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.classesDataSet4.classesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet4.classesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.classesDataSet4.classesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.classesDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.classesDataSet4TableAdapters.classesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.classesDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.classesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.classesDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.UpdateAll(auce_gym.classesDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.classesDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.classesDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.coachesDataSet.coachesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet.coachesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.coachesDataSet.coachesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.coachesDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.coachesDataSetTableAdapters.coachesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.coachesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.coachesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.coachesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.coachesDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.coachesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.coachesDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:auce_gym.activeregDataSet.ActiveRegDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet.ActiveRegRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:auce_gym.activeregDataSet.ActiveRegRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:auce_gym.activeregDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:auce_gym.activeregDataSetTableAdapters.ActiveRegTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(auce_gym.activeregDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(auce_gym.activeregDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(auce_gym.activeregDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.UpdateAll(auce_gym.activeregDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:auce_gym.activeregDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:auce_gym.activeregDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

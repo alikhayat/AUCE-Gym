@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0156FF95-F5FB-47C1-89FE-BFCECA859679}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>auce_gym.My.MyApplication</StartupObject>
+    <RootNamespace>auce_gym</RootNamespace>
+    <AssemblyName>auce gym</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\AUCE\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>AUCE_Gym</ProductName>
+    <PublisherName>AliKhayat</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>22</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>auce gym.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>auce gym.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5D123B22D0B0388822BABC77ABFF0285893E43D1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>auce gym_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if_physical_education_45375.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activeregDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activeregDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="activeregDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activeregDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="activeregDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activeregDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="activeregDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activeregDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="activeregDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>activeregDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="applicants1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>applicants1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="applicants1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>applicants1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="applicants1DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>applicants1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="applicants1DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>applicants1DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="applicants1DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>applicants1DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="assign.Designer.vb">
+      <DependentUpon>assign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="assign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changepass.Designer.vb">
+      <DependentUpon>changepass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="changepass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classesDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classesDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classesDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classesDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classesDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classesDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classesDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classesDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classesdetails.Designer.vb">
+      <DependentUpon>classesdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="classesdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coachesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coachesDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="coachesupdate.Designer.vb">
+      <DependentUpon>coachesupdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="coachesupdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cochadd.Designer.vb">
+      <DependentUpon>cochadd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cochadd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cochesedit.Designer.vb">
+      <DependentUpon>cochesedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cochesedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dailyDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dailyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editapplicants.Designer.vb">
+      <DependentUpon>editapplicants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editapplicants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ginfoupdate.Designer.vb">
+      <DependentUpon>ginfoupdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ginfoupdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inrecp.Designer.vb">
+      <DependentUpon>inrecp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inrecp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insurance.Designer.vb">
+      <DependentUpon>Insurance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insurance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reciept.Designer.vb">
+      <DependentUpon>reciept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reciept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="records.Designer.vb">
+      <DependentUpon>records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reports.Designer.vb">
+      <DependentUpon>reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reports.vb" />
+    <Compile Include="salaries.Designer.vb">
+      <DependentUpon>salaries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="salaries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sessadd.Designer.vb">
+      <DependentUpon>sessadd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sessadd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sessionsedit.Designer.vb">
+      <DependentUpon>sessionsedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sessionsedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="applicant.Designer.vb">
+      <DependentUpon>applicant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="applicant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockadd.Designer.vb">
+      <DependentUpon>stockadd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stockadd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="subbadd.Designer.vb">
+      <DependentUpon>subbadd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="subbadd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="submit.Designer.vb">
+      <DependentUpon>submit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="submit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="varrDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>varrDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="varrDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>varrDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="varrDataSet11.vb">
+      <DependentUpon>varrDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="varrDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>varrDataSet2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assign.resx">
+      <DependentUpon>assign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changepass.resx">
+      <DependentUpon>changepass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesdetails.resx">
+      <DependentUpon>classesdetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coachesupdate.resx">
+      <DependentUpon>coachesupdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cochadd.resx">
+      <DependentUpon>cochadd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cochesedit.resx">
+      <DependentUpon>cochesedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editapplicants.resx">
+      <DependentUpon>editapplicants.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ginfoupdate.resx">
+      <DependentUpon>ginfoupdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inrecp.resx">
+      <DependentUpon>inrecp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insurance.resx">
+      <DependentUpon>Insurance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reciept.resx">
+      <DependentUpon>reciept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="records.resx">
+      <DependentUpon>records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports.resx">
+      <DependentUpon>reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salaries.resx">
+      <DependentUpon>salaries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sessadd.resx">
+      <DependentUpon>sessadd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sessionsedit.resx">
+      <DependentUpon>sessionsedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="applicant.resx">
+      <DependentUpon>applicant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockadd.resx">
+      <DependentUpon>stockadd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subbadd.resx">
+      <DependentUpon>subbadd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="submit.resx">
+      <DependentUpon>submit.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="activeregDataSet.xsc">
+      <DependentUpon>activeregDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>activeregDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="activeregDataSet.xss">
+      <DependentUpon>activeregDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet1.xsc">
+      <DependentUpon>activeregDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>activeregDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="activeregDataSet1.xss">
+      <DependentUpon>activeregDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet2.xsc">
+      <DependentUpon>activeregDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>activeregDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="activeregDataSet2.xss">
+      <DependentUpon>activeregDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet3.xsc">
+      <DependentUpon>activeregDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>activeregDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="activeregDataSet3.xss">
+      <DependentUpon>activeregDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet4.xsc">
+      <DependentUpon>activeregDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="activeregDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>activeregDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="activeregDataSet4.xss">
+      <DependentUpon>activeregDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet.xsc">
+      <DependentUpon>applicants1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>applicants1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="applicants1DataSet.xss">
+      <DependentUpon>applicants1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet1.xsc">
+      <DependentUpon>applicants1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>applicants1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="applicants1DataSet1.xss">
+      <DependentUpon>applicants1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet2.xsc">
+      <DependentUpon>applicants1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>applicants1DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="applicants1DataSet2.xss">
+      <DependentUpon>applicants1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet3.xsc">
+      <DependentUpon>applicants1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>applicants1DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="applicants1DataSet3.xss">
+      <DependentUpon>applicants1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet4.xsc">
+      <DependentUpon>applicants1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="applicants1DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>applicants1DataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="applicants1DataSet4.xss">
+      <DependentUpon>applicants1DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="auce gym_TemporaryKey.pfx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="classesDataSet.xsc">
+      <DependentUpon>classesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classesDataSet.xss">
+      <DependentUpon>classesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet1.xsc">
+      <DependentUpon>classesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classesDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classesDataSet1.xss">
+      <DependentUpon>classesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet2.xsc">
+      <DependentUpon>classesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classesDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classesDataSet2.xss">
+      <DependentUpon>classesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet3.xsc">
+      <DependentUpon>classesDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classesDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classesDataSet3.xss">
+      <DependentUpon>classesDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet4.xsc">
+      <DependentUpon>classesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="classesDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classesDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classesDataSet4.xss">
+      <DependentUpon>classesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet.xsc">
+      <DependentUpon>coachesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet.xss">
+      <DependentUpon>coachesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet1.xsc">
+      <DependentUpon>coachesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet1.xss">
+      <DependentUpon>coachesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet2.xsc">
+      <DependentUpon>coachesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet2.xss">
+      <DependentUpon>coachesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet3.xsc">
+      <DependentUpon>coachesDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet3.xss">
+      <DependentUpon>coachesDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet4.xsc">
+      <DependentUpon>coachesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet4.xss">
+      <DependentUpon>coachesDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet5.xsc">
+      <DependentUpon>coachesDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="coachesDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>coachesDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="coachesDataSet5.xss">
+      <DependentUpon>coachesDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dailyDataSet.xsc">
+      <DependentUpon>dailyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dailyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dailyDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dailyDataSet.xss">
+      <DependentUpon>dailyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="stockDataSet.xsc">
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="stockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stockDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stockDataSet.xss">
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet1.xsc">
+      <DependentUpon>varrDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>varrDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="varrDataSet1.xss">
+      <DependentUpon>varrDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet11.xsc">
+      <DependentUpon>varrDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>varrDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="varrDataSet11.xss">
+      <DependentUpon>varrDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet2.xsc">
+      <DependentUpon>varrDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="varrDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>varrDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="varrDataSet2.xss">
+      <DependentUpon>varrDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auce-logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if_physical_education_45375.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

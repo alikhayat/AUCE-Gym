@@ -1,0 +1,74 @@
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe.config
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe.manifest
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.application
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.pdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.assign.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.changepass.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.classesdetails.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.coachesupdate.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.cochadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.cochesedit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.editapplicants.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Form1.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.ginfoupdate.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.inrecp.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Insurance.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.main.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Resources.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.reciept.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.records.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.reports.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.salaries.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.sessadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.sessionsedit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.applicant.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.stockadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.subbadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.submit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.vbproj.GenerateResource.Cache
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.TrustInfo.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.exe.manifest
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.application
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.pdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.vbprojResolveAssemblyReference.cache
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe.config
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.vbprojResolveAssemblyReference.cache
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.assign.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.changepass.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.classesdetails.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.coachesupdate.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.cochadd.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.cochesedit.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.editapplicants.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Form1.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.ginfoupdate.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.inrecp.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Insurance.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.main.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.Resources.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.reciept.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.records.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.reports.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.salaries.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.sessadd.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.sessionsedit.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.applicant.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.stockadd.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.subbadd.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce_gym.submit.resources
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.vbproj.GenerateResource.Cache
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.exe
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.exe.manifest
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\bin\Release\auce gym.application
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.TrustInfo.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.exe.manifest
+C:\Users\ali\Documents\Visual Studio 2013\Projects\auce gym\auce gym\obj\Release\auce gym.application

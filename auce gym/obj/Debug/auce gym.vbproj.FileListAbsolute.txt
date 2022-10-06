@@ -1,0 +1,32 @@
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Debug\auce gym.exe.config
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Debug\auce gym.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Debug\auce gym.pdb
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\bin\Debug\auce gym.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce gym.vbprojResolveAssemblyReference.cache
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.assign.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.changepass.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.classesdetails.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.coachesupdate.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.cochadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.cochesedit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.editapplicants.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.Form1.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.ginfoupdate.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.inrecp.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.Insurance.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.main.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.Resources.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.reciept.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.records.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.reports.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.salaries.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.sessadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.sessionsedit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.applicant.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.stockadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.subbadd.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce_gym.submit.resources
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce gym.vbproj.GenerateResource.Cache
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce gym.exe
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce gym.xml
+C:\Users\ahmad\documents\visual studio 2013\Projects\auce gym\auce gym\obj\Debug\auce gym.pdb
